@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<svg width="400" height="300" viewBox="0,0,40,30" style="border:1px solid #cd0000;">
+    <rect x="10" y="5" width="20" height="15" fill="#cd0000"/>
+</svg>-->
+<svg width="1000" height="1000">
+    <defs>
+        <pattern id="grid" x="100" y="100" width="0.2" height="0.2" patternUnits="objextBoundingBox">
+            <circle cx="10" cy="10" r="5" fill="red"></circle>
+            <polygon points="30 10 60 50 0 50" fill="green"></polygon>
+        </pattern>
+    </defs>
+    <rect x="100" y="100" width="400" height="300" fill="url(#grid)" stroke="red"></rect>
+</svg>
+</body>
+</html>
+<!--
+SVG图案一般用于SVG图形对象的填充fill或描边stroke。这个图形可以是一个SVG元素，也可以是位图图像，通过<pattern>元素在x轴或y轴方向以固定的间隔平铺。
+
+<pattern>是SVG的一个图案填充标签，可以在pattern中定义好图案，然后通过id引用来对某个图形进行填充，<pattern>的width/height属性默认是根据所填充图形的百分比来确定的。
+
+<pattern>: 用于自定义填充或描边图案，置于defs容器内使用。通过应用元素的fill或stroke属性引用。
+
+<polygon> 标签用来创建含有不少于三个边的图形。
+<polygon points="220,100 300,210 170,250"
+
+id="用于引用这个模式的唯一ID。"必需的。
+patternUnits="userSpaceOnUse'或'objectBoundingBox"。第二个值X，Y，width，height 一个会使用模式对象的边框的小部分，单位（％）。"
+patternContentUnits="'userSpaceOnUse'或 'objectBoundingBox'"
+patternTransform="允许整个表达式进行转换"
+x="模式的偏移量，来自左上角（默认为0）"
+y="模式的偏移量，来自左上角（默认为0）"
+width="模式平铺的宽度（默认为100％）"
+height="模式平铺的高度（默认为100％）"
+viewBox="各点"看到"这个SVG绘图区域。由空格或逗号分隔的4个值。(min x, min y, width, height)"
+xlink:href="另一种模式，其属性值是默认值以及任何子类可以继承。递归"
+-->
