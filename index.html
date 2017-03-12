@@ -4,8 +4,14 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<link rel="stylesheet" href="common/css/global.css">
+	<link rel="stylesheet" href="common/css/fix.css">
+	<script src="common/js/jquery-3.1.1.min.js"></script>
+	<script src="common/js/jquery.easing.1.3.js"></script>
+	<script src="common/js/jquery.transit.min.js"></script>
+	<script src="common/js/jquery.nicescroll.min.js"></script>
+	<script src="common/js/data.js"></script>
 </head>
-<body class="loaded">
+<body class="<!--loaded-->">
 <div class="header">
 	<a href="javascript:;" class="logo"></a>
 	<div class="r">
@@ -19,6 +25,8 @@
 	</div>
 
 </div>
+
+<script src="common/js/vivus.min.js"></script>
 <div class="nav_main">
 	<div class="inner">
 		<div class="d">
@@ -51,6 +59,9 @@
 	</div>
 </div>
 <div class="caseshadow"></div>
+<script src="common/js/global.js"></script>
+<script src="common/js/details.js"></script>
+
 <div class="body">
 	<a href="javascript:;" class="a_l"></a>
 	<a href="javascript:;" class="a_r"></a>
@@ -60,7 +71,7 @@
 			<div class="svg">
 				<!--多边形区域-->
 				<div class="polygon">
-					<!--bmg1-->
+					<!--bg1-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:0;top:0;">
 						<defs>
 							<pattern id="bgimg1" patternUnits="userSpaceOnUse" width="100%" height="100%">
@@ -71,7 +82,7 @@
 						<polygon class="pic2" points="132,0 0,230 265,230" style="fill:url(#bgimg1);opacity:0.2;" />
 						<polygon class="bdr" points="132,0 0,230 265,230" />
 					</svg>
-					<!--bmg2-->
+					<!--bg2-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:20%;top:33.33%">
 						<defs>
 							<pattern id="bgimg2" patternUnits="userSpaceOnUse" width="100%" height="100%">
@@ -82,7 +93,7 @@
 						<polygon class="pic2" points="0,0 265,0 132,230" style="fill:url(#bgimg2);opacity:0.2;" />
 						<polygon class="bdr" points="0,0 265,0 132,230" />
 					</svg>
-					<!--bmg3-->
+					<!--bg3-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:20%;top:66.66%">
 						<defs>
 							<pattern id="bgimg3" patternUnits="userSpaceOnUse" width="100%" height="100%">
@@ -93,18 +104,18 @@
 						<polygon class="pic2" points="132,0 0,229 265,229" style="fill:url(#bgimg3);" />
 						<polygon class="bdr" points="132,0 0,230 265,230" />
 					</svg>
-					<!--bmg4-->
+					<!--bg4-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:30%;top:33.33%">
 						<defs>
 							<pattern id="bgimg4" patternUnits="userSpaceOnUse" width="100%" height="100%">
 								<image xlink:href="common/image/pic4.jpg" x="0" y="0" width="100%" height="100%" />
 							</pattern>
-							<polygon class="pic" points="132,0 0,230 265,230" style="fill:url(#bgimg4);" />
-							<polygon class="pic2" points="132,0 0,230 265,230" style="fill:url(#bgimg4);" />
-							<polygon class="bdr" points="132,0 0,230 265,230" />
 						</defs>
+						<polygon class="pic" points="132,0 0,230 265,230" style="fill:url(#bgimg4);" />
+						<polygon class="pic2" points="132,0 0,230 265,230" style="fill:url(#bgimg4);" />
+						<polygon class="bdr" points="132,0 0,230 265,230" />
 					</svg>
-					<!--bmg5-->
+					<!--bg5-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:40%;top:0%">
 						<defs>
 							<pattern id="bgimg5" patternUnits="userSpaceOnUse" width="100%" height="100%">
@@ -115,7 +126,7 @@
 						<polygon class="pic2" points="132,0 0,229 265,229" style="fill:url(#bgimg5);" />
 						<polygon class="bdr" points="132,0 0,230 265,230" />
 					</svg>
-					<!--bmg6-->
+					<!--bg6-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:40%;top:66.66%">
 						<defs>
 							<pattern id="bgimg6" patternUnits="userSpaceOnUse" width="100%" height="100%">
@@ -126,8 +137,8 @@
 						<polygon class="pic2" points="132,0 0,229 265,229" style="fill:url(#bgimg6);" />
 						<polygon class="bdr" points="132,0 0,230 265,230" />
 					</svg>
-					<!--bmg7-->
-					<svg lass="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:50%;top:33.33%">
+					<!--bg7-->
+					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:50%;top:33.33%">
 						<defs>
 							<pattern id="bgimg7" patternUnits="userSpaceOnUse" width="100%" height="100%">
 								<image xlink:href="common/image/pic7.jpg" x="0" y="0" width="100%" height="100%" />
@@ -137,18 +148,18 @@
 						<polygon class="pic2" points="132,0 0,230 265,230" style="fill:url(#bgimg7);" />
 						<polygon class="bdr" points="132,0 0,230 265,230" />
 					</svg>
-					<!--img8-->
+					<!--bg8-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:60%;top:66.66%">
 						<defs>
-						<pattern id="bgimg8" patternUnits="userSpaceOnUse" width="100%" height="100%">
-							<image xlink:href="common/image/pic8.jpg" x="0" y="0" width="100%" height="100%" />
-						</pattern>
+							<pattern id="bgimg8" patternUnits="userSpaceOnUse" width="100%" height="100%">
+								<image xlink:href="common/image/pic8.jpg" x="0" y="0" width="100%" height="100%" />
+							</pattern>
 						</defs>
 						<polygon class="pic" points="132,0 0,229 265,229" style="fill:url(#bgimg8);" />
 						<polygon class="pic2" points="132,0 0,229 265,229" style="fill:url(#bgimg8);" />
 						<polygon class="bdr" points="132,0 0,230 265,230" />
 					</svg>
-					<!--bmg9-->
+					<!--bg9-->
 					<svg class="p" xmlns="http://www.w3.org/2000/svg" version="1.1" width="265" height="230" viewBox="0 0 265 230" style="left:80%;top:33.33%">
 						<defs>
 							<pattern id="bgimg9" patternUnits="userSpaceOnUse" width="100%" height="100%">
@@ -159,11 +170,6 @@
 						<polygon class="pic2" points="0,0 265,0 132,230" style="fill:url(#bgimg9);opacity:0.2;" />
 						<polygon class="bdr" points="0,0 265,0 132,230" />
 					</svg>
-					<svg id="line" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 1325 690" style="position:absolute;left:0;top:0;background:rgba(255,255,255,0);">
-						<path d="M 795 230 L530 690 L133 0 L0 230 L1325 230 L1060 690"></path>
-						<path d="M927 460 L132 460 L264 690 L662 0 L1060 690"></path>
-						<path d="M530 230 L795 690 L1060 230 L1192 460"></path>
-					</svg>
 				</div>
 				<svg id="line" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 1325 690" style="position:absolute;left:0;top:0;background:rgba(255,255,255,0);">
 					<path d="M 795 230 L530 690 L133 0 L0 230 L1325 230 L1060 690"></path>
@@ -171,11 +177,315 @@
 					<path d="M530 230 L795 690 L1060 230 L1192 460"></path>
 				</svg>
 			</div>
-
+			<div class="title">
+				<h1>CASE</h1>
+				<p>FRACTAL DESIGN WORKS</p>
+			</div>
+			<div class="list">
+				<div class="close"></div>
+				<div class="inner">
+					<!--<div class="item">
+						<img src="common/image/12/s57fde8df30823.jpg">
+						&lt;!&ndash;mask阴影层&ndash;&gt;
+						<div class="mask"><span class="b"></span>
+							<h3><a link="/fxal/123.html">
+								<strong>余额宝 宝粉网</strong>
+								<em>Click to view details</em>
+							</a></h3>
+						</div>
+					</div>-->
+				</div>
+			</div>
+			<div class="case_detail">
+				<div class="close"></div>
+				<div class="content">
+					<!---->
+				</div>
+				<div class="loading">
+					<div class="spinner">
+						<!--圆圈1-->
+						<div class="spinner-container container1">
+							<div class="circle1"></div>
+							<div class="circle2"></div>
+							<div class="circle3"></div>
+							<div class="circle4"></div>
+						</div>
+						<!--圆圈2-->
+						<div class="spinner-container container2">
+							<div class="circle1"></div>
+							<div class="circle2"></div>
+							<div class="circle3"></div>
+							<div class="circle4"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 <div class="st"></div>
+<script>
+	//-----------页面初始化
+	//生成item
+	var str ='';
+	$.each(data,function (i,e) {
+		str +='<div class="item">'+
+            '<img src="'+e.src+'">'+
+        '<div class="mask"><span class="b"></span>'+
+            '<h3><a link="'+e.link+'">'+
+            '<strong>'+e.name+'</strong>'+
+            '<em>Click to view details</em>'+
+            '</a></h3>'+
+            '</div>'+
+            '</div>'
+    });
+	$('.list .inner').html(str);
 
+	//----确定svg大小
+	var bEnd=false;//banner是否结束
+    var svgw=$(".case .svg").height()/690*1325;//与viewbox同比
+    $(".case .svg").width(svgw);
+    //一共三行五列图片
+    $(".case .polygon .p").css({width:svgw/5,height:$(".case .svg").height()/3});
+	//svg图像响应式
+	$(window).resize(function(){
+        svgw=$(".case .svg").height()/690*1325;
+        $(".case .svg").width(svgw);
+        $(".case .polygon .p").css({width:svgw/5,height:$(".case .svg").height()/3});
+    });
+
+//--------------innit
+$(function () {
+    $("body").addClass("loaded");
+    //描边,图片,阴影层运动
+    line = new Vivus('line',{type:'async',duration:150,pathTimingFunction:Vivus.EASE});
+
+    $(".polygon .p").each(function (i,e) {
+        var oP = $(this);
+		setTimeout(function () {
+			oP.transit({opacity:1},1000);
+            oP.find(".pic2").transit({translate:"0%,0%",scale:"1",},1000,"cubic-bezier(0,1,1,1)");
+        },randomNum(5,30)*100)
+		oP.find('.bdr').css({"animation-delay":randomNum(5,50)*0.1+'s'});
+    });
+    //标题运动
+    titInit('.title h1');
+    titInit('.title p');
+    actTit('.title h1',500);
+    actTit('.title p',1000);
+    //banner图运动
+    setTimeout(function(){
+        $(".banner .frame").transit({scale:"1.05"},1000,function(){
+            bEnd=true;
+        });
+    },3000);
+	//鼠标移动
+	var bh =$("body").height()/2;
+	var bw=$("body").outerWidth()/2;
+
+	$(window).resize(function () {
+        bh =$("body").height()/2;
+        bw=$("body").outerWidth()/2;
+    })
+	$('.body').mousemove(function (ev) {
+		if(bEnd){
+			var x= ev.clientX;
+			var y= ev.clientY;
+            $(".case .title").css({translate:Math.floor((x-bw)*0.04)+","+Math.floor((y-bh)*0.06)});
+            $(".banner .frame").css({translate:Math.floor((x-bw)*0.02)*-1+","+Math.floor((y-bh)*0.05)*-1});
+		}
+    })
+//----------h5摇晃
+    if(window.DeviceMotionEvent) {
+        var x1,y1;
+        window.addEventListener('devicemotion', function(){
+            var acceleration =event.accelerationIncludingGravity;
+            x1 = acceleration.x;
+            y1 = acceleration.y;
+            if(bEnd){
+                //$(".st").html((x1)+"<br/>"+(y1));
+                $(".case .title").css({translate:Math.floor(x1*1)+","+Math.floor(y1*1)});
+                $(".banner .frame").css({translate:Math.floor(x1*3)+","+Math.floor(y1*3)});
+            }
+        }, false);
+    }
+
+//	-----------主体滚轮事件
+//-------滚轮函数
+	function addMouseWheel(obj,fn) {
+		obj.addEventListener('mousewheel',fn1);
+		obj.addEventListener('DOMMouseScroll',fn1);
+		function fn1(ev) {
+		    var down =false;
+			if(ev.wheelDelta){
+			    down=ev.wheelDelta>0?false:true;
+			}else{
+                down=ev.detail>0?true:false;
+			}
+			fn&&fn(down);
+        }
+    }
+    //-----------触发滚轮
+    addMouseWheel($('.case')[0],function (down) {
+		if(down){
+		    if(bEnd){
+                caseShow();
+			}
+		}
+    });
+	//----动画结束，点击
+	$('.case').click(function () {
+		if(bEnd){
+            caseShow();
+		}
+    })
+	//-----移动端点击事件
+    $('.case').bind("touchend",function(){
+        if(bEnd){
+            caseShow();
+        }
+    });
+	//----------case框出现
+	function caseShow() {
+		if(!$('.case .list').hasClass('show')){
+		    bEnd=false;//阻止再次触发滚轮事件
+		    $('#line').fadeOut(1000);
+            var bez="cubic-bezier(1,0,0.7,1)";
+            $(".polygon .p").eq(0).delay(150).transit({opacity:1,translate:"-200px,-300px",rotateX:"25deg",rotateY:"-45deg",rotateZ:"-20deg"},700,bez);
+            $(".polygon .p").eq(1).delay(100).transit({opacity:1,translate:"-500px,-200px",rotateX:"45deg",rotateY:"-45deg",rotateZ:"-0deg"},700,bez);
+            $(".polygon .p").eq(2).delay(150).transit({opacity:1,translate:"-300px,300px",rotateX:"-90deg",rotateZ:"-30deg"},700,bez);
+            $(".polygon .p").eq(3).transit({opacity:1,scale:"1.6",translate:"-500px,0px",rotateX:"-20deg",rotateY:"-80deg",rotateZ:"-35deg"},700,bez);
+            $(".polygon .p").eq(4).delay(100).transit({opacity:1,scale:"1.3",translate:"0,-200px",rotateX:"-90deg"},700,bez);
+            $(".polygon .p").eq(5).delay(100).transit({opacity:1,scale:"1.3",translate:"0,200px",rotateX:"90deg"},700,bez);
+            $(".polygon .p").eq(6).transit({opacity:1,scale:"1.6",translate:"600px,200px",rotateX:"-50deg",rotateZ:"0deg",rotateY:"80deg"},700,bez);
+            $(".polygon .p").eq(7).delay(100).transit({opacity:1,translate:"400px,400px",rotateX:"-90deg",rotateZ:"30deg"},700,bez);
+            $(".polygon .p").eq(8).delay(150).transit({opacity:1,translate:"400px,-300px",rotateX:"45deg",rotateY:"45deg"},700,bez);
+            $(".polygon").delay(300).fadeOut(700);
+            $(".title").transit({scale:"3",opacity:0},500,"cubic-bezier(1,0,1,1)",function(){
+                $(this).children().removeClass("act");
+            });
+            $(".banner .frame").delay(600).transit({scale:"1.3"},2000,"cubic-bezier(0,1,1,1)");
+            $(".caseshadow").delay(1000).fadeIn(1000);
+			setTimeout(function () {
+                $(".case .list").fadeIn(1000,function () {
+                    if($(window).width()>1000){
+                        $(this).find(".inner").niceScroll({
+                            cursorcolor:"#ccc",
+                            cursorborder:"none",
+                            cursorwidth:"6px",
+                            scrollspeed:80,
+                            background:"#555",
+                            cursoropacitymin:0.2,
+                            cursoropacitymax:1,
+                            enablekeyboard:false,
+                            zindex:1
+						})
+					}
+                    $(".case .list").addClass("sd");
+                });
+                $(".case .list").addClass('show');
+                $(".case .list .inner").scrollTop(0);
+                bEnd=true;
+            },1000)
+		}
+    }
+
+    $(".case .list .close").click(function () {
+		if(bEnd){
+		    bEnd=false;
+            $(".caseshadow").fadeOut(500);
+            $(".case .list").fadeOut(500,function () {
+                $(".banner .frame").transit({scale:"1.05",translate:"0,0"},2000,"cubic-bezier(0,1,1,1)");
+                $(".case .title").css({translate:"0,0"});
+
+                $("#line").show()
+                line.reset().play();
+                $(".polygon").show();
+                $(".polygon .p").transit({translate:"0,0",rotateX:0,rotateY:0,rotateZ:0,scale:1,opacity:0},0);;
+                $(".polygon .pic2").transit({translate:"15%,21%",scale:"0.7"},0);
+                $(".polygon .p").each(function(index, element) {
+                    var t=$(this);
+                    setTimeout(function(){
+                        t.transit({opacity:1},1500);
+                        t.find(".pic2").transit({translate:"0%,0%",scale:"1"},1000,"cubic-bezier(0,1,1,1)");
+                    },randomNum(10,40)*100);
+                    t.find(".bdr").css({"animation-delay":0.1*randomNum(5,70)+"s","-webkit-animation-delay":0.1*randomNum(5,70)+"s"});
+                });
+                $(".title").transit({scale:"1",opacity:1},0);
+                actTit(".title h1")
+                actTit(".title p",1000)
+                $(".case .list").removeClass("show");
+                setTimeout(function(){
+                    bEnd=true;
+                    $('.case').removeClass("donw");
+                },4000);
+            })
+		}
+    })
+    var cx=0,cy=0;
+    $(".case .list").mousemove(function(event){
+        cx=event.clientX-$(this).offset().left;
+        cy=event.clientY-$(this).offset().top;
+    });
+	$(".case .list .item").click(function(){
+        var t=$(this).find("a");
+        $(".case_detail").css({left:cx,top:cy,right:$(".case .list").outerWidth()-cx,bottom:$(".case .list").outerHeight()-cy}).show();
+        $(".case_detail").transit({left:0,top:0,right:0,bottom:0},600,"cubic-bezier(0,1,0.6,1)",function(){
+            console.log(t.attr('link'))
+            $(this).find(".content").load(t.attr('link'),function(){
+                $(".case_detail .loading").fadeOut(300);
+                if($(window).width()>1000){
+                    $(this).find(".pic").niceScroll({
+                        cursorcolor:"#bbb",
+                        cursorborder:"none",
+                        cursorwidth:"6px",
+                        scrollspeed:80,
+                        background:"#333",
+                        cursoropacitymin:1,
+                        cursoropacitymax:1,
+                        enablekeyboard:false,
+                        zindex:1
+                    });
+                }
+            });
+
+        });
+        return false;
+    });
+
+    $(".case_detail .close").click(function(){
+        $(".case_detail").fadeOut(400,function(){
+            $(".case_detail").find(".content").html("");
+            $(".case_detail .loading").show();
+        });
+    });
+
+
+
+})
+
+
+
+</script>
+<div class="footer">
+	<div class="left">
+		<div class="d"></div>
+		<div class="d"></div>
+		<div class="d"></div>
+	</div>
+	<div class="left2">
+		<div class="d"></div>
+		<div class="d"></div>
+		<div class="d"></div>
+	</div>
+	<div class="m">
+		<p></p>
+	</div>
+	<div class="right">
+		<div class="share">
+			<a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+		</div>
+	</div>
+</div>
 </body>
 </html>
